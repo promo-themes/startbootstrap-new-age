@@ -44,6 +44,22 @@ section.contact {
                     }
                 }
             }
+            &.social-line {
+                a {
+                    background-color: $brand-line;
+                    &:hover {
+                        background-color: darken($brand-line, 5%);
+                    }
+                }
+            }
+            &.social-mail {
+                a {
+                    background-color: $tool-mail;
+                    &:hover {
+                        background-color: darken($tool-mail, 5%);
+                    }
+                }
+            }
         }
     }
 }
